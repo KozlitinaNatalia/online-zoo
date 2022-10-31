@@ -1,0 +1,554 @@
+* {
+  max-width: 1600px;
+}
+
+/* header */
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  backdrop-filter: blur(2px);
+}
+/* Note: backdrop-filter has minimal browser support */
+
+/* .container {
+  width: 1000px;
+  height: 80px;
+  position: absolute;
+  height: 80px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #111115;
+} */
+
+/* PetStory online */
+.PetStory {
+  box-sizing: border-box;
+  position: absolute;
+  width: 72.49px;
+  height: 44.91px;
+  left: 4.75px;
+  top: 3.55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 23px;
+  /* line-height: 120%; */
+  /* or 23px */
+  text-align: center;
+  color: #ffffff;
+  border: 1.18841px solid #ffffff;
+}
+
+.about {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 365px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  /* or 22px */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.map {
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  left: 466px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+.zoos {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 556px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+.donate {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 650px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+.contact {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 759px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+.designed {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 1275px;
+  top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #ffffff;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+/* Giant Panda */
+.Giant Panda {
+  position: absolute;
+  height: 780px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  /* background: url(Screenshot_2021-01-01GiantPanda-ZooAtlanta(1).jpg); */
+}
+
+.ellipse {
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  top: 92px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 50%;
+}
+
+/* Watch your favorite animal online */
+.watch {
+  position: absolute;
+  width: 500.31px;
+  height: 400px;
+  left: calc(50% - 500.31px / 2 + 330.15px);
+  top: 166px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  /* or 80px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.favorite {
+  color: yellow;
+}
+
+button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px / 2 + 332px);
+  top: 626px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  border-color: #fe9013;
+}
+
+button:hover {
+  font-weight: 700;
+  font-size: 18px;
+  width: 302px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
+
+.row > .column {
+  flex: 50%;
+}
+
+.bamboo-cap {
+  /* position: absolute; */
+  width: 609px;
+  height: 403px;
+  left: 0px;
+  top: 0px;
+  /* background: url(bamboo-cap-4767687_1920.jpg); */
+  backdrop-filter: blur(2px);
+}
+
+h2 {
+  /* position: absolute; */
+  height: 116px;
+  left: 696px;
+  right: 0px;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+  color: #333b41;
+}
+
+.epigraf {
+  /* position: absolute; */
+  height: 42px;
+  left: 696px;
+  right: 0px;
+  top: 136px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  color: #333b41;
+}
+
+h3 {
+  /* position: absolute; */
+  width: 217px;
+  height: 29px;
+  left: calc(50% - 217px / 2 + 224px);
+  top: 232px;
+  /* subtitle */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  color: #333b41;
+}
+
+.text {
+  /* position: absolute; */
+  height: 105px;
+  left: 696px;
+  right: 0px;
+  top: 295px;
+  /* body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  color: #333b41;
+}
+
+/* flower_foto1 */
+.flower_foto1 {
+  position: absolute;
+  width: 293px;
+  height: 605px;
+  left: 1400px;
+  top: 792px;
+  background: url(flower_foto.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pets {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 72px;
+}
+
+.card {
+  border: 1px solid orange;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+image {
+  width: 366px;
+  height: 366px;
+}
+
+.text-icons {
+  display: flex;
+}
+
+.text {
+  width: 85%;
+  padding: 10px;
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.icons-banana {
+  width: 33px;
+  height: 29.15px;
+  top: 3.1px;
+  box-sizing: border-box;
+  left: 0%;
+  right: 0%;
+  top: 8.38%;
+  bottom: 12.85%;
+}
+
+.icons-bamboo {
+  width: 12.61px;
+  height: 35.16px;
+  left: 11.24px;
+  left: 34.05%;
+  right: 27.75%;
+  top: 0%;
+  bottom: 4.97%;
+  transform: matrix(-0.89, 0.45, 0.46, 0.89, 0, 0);
+}
+
+.icons-steak {
+  width: 29.72px;
+  height: 22.52px;
+  left: 0%;
+  right: 38.08%;
+  top: 51.78%;
+  bottom: -11.06%;
+  transform: matrix(0.75, -0.66, 0.67, 0.75, 0, 0);
+}
+
+.icons-fish {
+  width: 35.16px;
+  height: 13.95px;
+  left: 21.13%;
+  right: 5.63%;
+  top: 65.83%;
+  bottom: -2.54%;
+  transform: matrix(0.93, -0.36, 0.37, 0.93, 0, 0);
+}
+
+.btn-1 {
+  /* position: absolute; */
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px / 2);
+  top: 2455px;
+  /* or3 */
+  background: #fe9013;
+  border-radius: 25px;
+  /* btn. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.palm_foto {
+  position: absolute;
+  width: 880px;
+  height: 460px;
+  left: -588px;
+  top: 2149px;
+  /* background: url(palm_foto.png); */
+}
+
+.strelitzia {
+  /* position: absolute; */
+  width: 368px;
+  height: 275px;
+  right: -368px;
+  top: 2334px;
+  /* background: url(978429bbb700c68d7cae5661e75ce6dc.png); */
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.container-1 {
+  /* position: absolute; */
+  height: 1004px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 1600px;
+  opacity: 90%;
+  /* orange_gradient */
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+}
+
+.container-2 {
+  width: 1160px;
+  height: 835px;
+  top: 69px;
+  left: 220px;
+  position: relative;
+  left: 220px;
+  right: 220px;
+  /* frosted_glass_white */
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}
+
+.pick {
+  position: absolute;
+  width: 463px;
+  height: 58px;
+  left: calc(50% - 463px / 2 + 1.5px);
+  top: 110px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  text-align: center;
+
+  color: #fe9013;
+}
+
+.general {
+  position: absolute;
+  width: 843px;
+  height: 29px;
+  left: calc(50% - 843px / 2 - 59.5px);
+  top: 198px;
+
+  /* subtitle */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  color: #333b41;
+}
+
+.part1 {
+  position: absolute;
+  width: 1061px;
+  height: 21px;
+  left: calc(50% - 1061px / 2 + 49.5px);
+  top: 267px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  color: #333b41;
+}
+
+.part2 {
+  position: absolute;
+  width: 863px;
+  height: 42px;
+  left: calc(50% - 863px / 2 - 49.5px);
+  top: 298px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #333b41;
+}
